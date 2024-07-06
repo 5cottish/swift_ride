@@ -13,7 +13,8 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
-        headerShown: false,
+        //headerShown: false,
+        headerTitle: "Rider History",
         headerTitleAlign: "center",
       }}
     >
